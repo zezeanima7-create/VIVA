@@ -11,13 +11,13 @@ Site responsivo em HTML, CSS e JavaScript puro. Não precisa de npm, compilaçã
 Abra `index.html` no navegador. Para testar como site, também pode usar a extensão Live Server no VS Code.
 
 ## Publicar no Cloudflare Pages pelo GitHub
-1. Crie um repositório no GitHub chamado `viva-site`.
+1. Crie um repositório no GitHub chamado `VIVA`.
 2. Envie os três arquivos (`index.html`, `styles.css`, `app.js`) e este README para a raiz do repositório.
 3. No Cloudflare, abra **Workers & Pages → Create → Pages → Connect to Git**.
-4. Autorize o GitHub e selecione `viva-site`.
+4. Autorize o GitHub e selecione `VIVA`.
 5. Framework preset: **None**.
 6. Build command: deixe vazio.
-7. Build output directory: `/` (raiz do projeto).
+7. Build output directory: `.` (raiz do projeto).
 8. Clique em **Save and Deploy**.
 
 ## O que funciona nesta versão
